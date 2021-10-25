@@ -17,7 +17,7 @@ def read_edges(edges_line):
 
 if __name__ == '__main__':
 
-    with open('./originalData/Task_10_000_nodes_27_000_edges.txt', 'r') as orgn, open('./dotArchives/Task_graph_10_000_nodes.dot', 'w+') as dstn:
+    with open('./originalData/Task_graph_15_000_nodes.txt', 'r') as orgn, open('./dotArchives/Task_graph_15_000_nodes.dot', 'w+') as dstn:
         dstn.write('digraph {\n')
 
         for line in orgn.readlines():
