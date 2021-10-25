@@ -15,7 +15,7 @@ def read_edges(edges_line):
     return [args[0], args[1]]
 
 def handle_dot_file():
-    with open('./dotArchives/Task_graph_35_000_nodes.dot', 'r') as orgn, open('./dotArchives/Task_graph_35_000_nodes_optim.dot', 'w+') as dstn:
+    with open('./dotArchives/Task_graph_50_000_nodes.dot', 'r') as orgn, open('./dotArchives/Task_graph_50_000_nodes_optim.dot', 'w+') as dstn:
         orgn.readline()
         dstn.write('digraph {\n')
 
